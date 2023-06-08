@@ -1,0 +1,9 @@
+keras==2.8.0
+matplotlib==3.4.3
+numpy==1.21.6
+opencv_python==4.7.0.72
+scikit_learn==1.0.2
+tensorflow==2.8.0
+tensorflow_datasets==4.8.2
+tqdm==4.65.0
+protobuf==3.20.0
