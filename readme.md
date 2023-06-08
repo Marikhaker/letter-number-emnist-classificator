@@ -56,6 +56,13 @@ I think accuracy could be increased up to ~0.92 with more epochs and some more c
 
 I also plot train/val accuracy/loss graphs.
 
+### Training curves
+<div align="center">
+  <p>
+     <img width="70%" src="https://github.com/Marikhaker/letter-number-emnist-classificator/blob/main/train_val%20acc_loss%20curves.jpg?raw=true">
+  </p>
+</div>
+
 # Usage of inference program:
 Program takes an input of string with target foldername. Than The output format is a single text line for every image in input directory “[character ASCII index in decimalformat], [POSIX path to image sample]”. The number of output lines is equal to images in input folder. **Output letters are ALL uppercase**. Programm can process different resolutions, they are being automatically reduced to size needed for model.
 It can process following file extensions:
