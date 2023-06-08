@@ -57,7 +57,7 @@ I think accuracy could be increased up to ~0.92 with more epochs and some more c
 I also plot train/val accuracy/loss graphs.
 
 # Usage of inference program:
-As stated in task document, program takes an input of string with target foldername. Than The output format is a single text line for every image in input directory “[character ASCII index in decimalformat], [POSIX path to image sample]”. The number of output lines is equal to images in input folder. **Output letters are ALL uppercase**. Programm can process different resolutions, they are being automatically reduced to size needed for model.
+Program takes an input of string with target foldername. Than The output format is a single text line for every image in input directory “[character ASCII index in decimalformat], [POSIX path to image sample]”. The number of output lines is equal to images in input folder. **Output letters are ALL uppercase**. Programm can process different resolutions, they are being automatically reduced to size needed for model.
 It can process following file extensions:
 
 ```
@@ -82,6 +82,4 @@ python C:\app\inference.py --input C:\mnt\test_data
 ## train.py usage
 If you run train.py without changing anything, it wil load dataset - takes few minutes, and trai for 3 epoches. After 3 epoches training you could expect to get test accuracy ~ 0.86. 
 
-**Dont forget that my pretrained model will be overwritten if you run train.py.**
-
-**by Markiian Postavka, markiian.postavka.2002@gmail.com**
+**Dont forget that pretrained model will be overwritten if you run train.py.**
